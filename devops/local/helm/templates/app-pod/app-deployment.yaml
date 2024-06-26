@@ -69,7 +69,7 @@ spec:
           image: {{ .Values.deployment.systementry.image }}
           ports:
             - name: http-port
-              containerPort: 8020
+              containerPort: 8022
           env:
             - name: {{ .Values.app.prefix }}-app-db
               value: {{ .Values.app.prefix }}-app-db
@@ -81,7 +81,7 @@ spec:
           image: {{ .Values.deployment.ticket.image }}
           ports:
             - name: http-port
-              containerPort: 8021
+              containerPort: 8023
           env:
             - name: {{ .Values.app.prefix }}-app-db
               value: {{ .Values.app.prefix }}-app-db
