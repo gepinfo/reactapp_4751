@@ -251,7 +251,7 @@ services:
     image: systementry-4751
     container_name: systementry-4751
     ports: 
-      - 8018:8018
+      - 8020:8020
     env_file: .env
     depends_on:
       - mongo
@@ -272,7 +272,7 @@ services:
     image: ticket-4751
     container_name: ticket-4751
     ports: 
-      - 8019:8019
+      - 8021:8021
     env_file: .env
     depends_on:
       - mongo

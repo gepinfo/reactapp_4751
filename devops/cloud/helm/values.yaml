@@ -57,14 +57,14 @@ service:
   systementry: 
     name: systementry
     type: NodePort
-    port: 8018
-    targetPort: 8018
+    port: 8020
+    targetPort: 8020
 
   ticket: 
     name: ticket
     type: NodePort
-    port: 8019
-    targetPort: 8019
+    port: 8021
+    targetPort: 8021
 
 
 deployment:
